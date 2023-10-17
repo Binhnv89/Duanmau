@@ -1,0 +1,155 @@
+main{
+    margin-top: 50px;
+    width: 100%;
+    height: 2700px;
+    display: flex;
+    margin-bottom: -200px;
+    background-color: rgb(219, 219, 219);
+}
+/* lef */
+.lef{
+    width: 20%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.de{
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    background-color: palevioletred;
+  padding-left: 5%;
+}
+.de h3{
+    padding-left: 40px;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 3px dashed white ;
+    font-family: a;
+}
+.de h3 svg{
+    font-size: 15px;
+    color: black;
+    margin-right: 20px;
+}
+/* //.danhmuc */
+.danhmuc form{
+    width: 100%;
+    height: 350px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.danhmuc form input{
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+}
+.haitu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-left: 15%;
+    line-height: 10px;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+}
+.haitu p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hotro{
+    padding-bottom: 40px;
+}
+.sanphamnoibat{
+    margin-top: 20px;
+}
+.noibat{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.noibat img{
+    position: relative;
+    right: 75px;
+    top: 25px;
+}
+.noibat a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.tensp{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 55%;
+    top: 10px;
+}
+.giasp{
+    position: relative;
+    top: -60px;
+    font-size: 20px;
+    left: 167px;
+}
+.giamgia{
+    position: relative;
+    top: -35px;
+    font-size: 15px;
+    left: 60px;
+}
+/*  */
+.imay {
+    width: 100%; /* Chiều rộng của phần tử cha */
+    margin: 0 auto; /* Để căn giữa hình ảnh trong phòng */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .imay img{
+      width: 98%; /* Hình ảnh không vượt quá kích thước của chính nó hoặc phần tử cha */
+      height: 450px; /* Đảm bảo tỷ lệ khung hình bảo toàn */
+      display: block; /* Để loại bỏ khoảng trống dư thừa ở dưới hình ảnh */
+      border-radius: 40px;
+      border: 2px outset gray;
+  
+    }
+    .imay img:hover{
+      transform: scale(1.1);
+    }
+    .tt{
+     margin-top: 10px;
+      width: 100%;
+      height: 350px;
+      border: 1px solid gray;
+      line-height: 25px;
+    }
+    .tt img{
+      width: 250px;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+    .tt .tieude{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .tt a{
+      text-decoration: none;
+      color: red;
+      float: right;
+      margin-right: 10px;
+      transition: transform 0.3 ease;
+    }
+    .tt a:hover{
+      transform: skewX(-15deg);
+    }
